@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escritos — Sergio Barrio Tarnawiecki</title>
+  <meta name="description" content="Escritos originales de Sergio Barrio Tarnawiecki: textos breves, apuntes de taller y prosa reciente.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Sergio Barrio Tarnawiecki, inicio">
+        Sergio Barrio Tarnawiecki
+        <small>Poesía · Pintura · Fotografía</small>
+      </a>
+      <div class="site-header__nav-wrap">
+        <nav class="main-nav" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="pinturas.html">Pinturas</a></li>
+          <li><a href="fotografias.html">Fotografías</a></li>
+          <li><a href="escritos.html" aria-current="page">Escritos</a></li>
+          <li><a href="sobre.html">Sobre mí</a></li>
+        </ul>
+      </nav>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-pressed="false">
+        <span class="icon" data-theme-icon aria-hidden="true">☾</span>
+        <span data-theme-label>Modo oscuro</span>
+      </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="page-header">
+      <div class="container">
+        <p class="page-header__kicker">Cuaderno</p>
+        <h1 class="page-header__title">Escritos</h1>
+        <p class="page-header__lead">
+          Textos breves que voy dejando por acá: apuntes del taller, recuerdos,
+          páginas sueltas. No siguen un orden ni un plan; se leen como uno
+          quiera.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <!-- Índice de escritos -->
+        <nav class="writings-toc" aria-label="Índice de escritos">
+          <h2>En este cuaderno</h2>
+          <ol>
+            <li>
+              <a href="#mirar-despacio">Lo que el ganado nos enseña de mirar despacio</a>
+              <time datetime="2026-07-03">3 de julio, 2026</time>
+            </li>
+            <li>
+              <a href="#taller-invierno">El taller en invierno</a>
+              <time datetime="2026-06-14">14 de junio, 2026</time>
+            </li>
+            <li>
+              <a href="#carta-abuelo">Carta que no le mandé a mi abuelo</a>
+              <time datetime="2026-05-02">2 de mayo, 2026</time>
+            </li>
+          </ol>
+        </nav>
+
+        <!-- ============================================================
+             PARA AGREGAR UN ESCRITO NUEVO:
+             1. Añade una nueva línea en la lista <ol> de arriba con un
+                enlace a #id-corta y su fecha.
+             2. Copia uno de los bloques <article class="writing"> de
+                abajo y cambia:
+                  · id="..."   (el mismo id que usaste en el índice)
+                  · el kicker (por ejemplo "Prosa" o "Cuaderno")
+                  · el título
+                  · la fecha (en dos lugares: el datetime y el texto)
+                  · el cuerpo (los <p> entre <div class="writing__body">)
+             ============================================================ -->
+
+        <!-- ESCRITO 1 -->
+        <article class="writing" id="mirar-despacio">
+          <header class="writing__header">
+            <p class="writing__kicker">Prosa breve</p>
+            <h2 class="writing__title">Lo que el ganado nos enseña de mirar despacio</h2>
+            <p class="writing__date">
+              <time datetime="2026-07-03">3 de julio, 2026</time>
+            </p>
+          </header>
+          <div class="writing__body">
+            <p>
+              Uno vuelve al campo pensando que va a descansar y termina, más
+              bien, aprendiendo otra vez a mirar. Las vacas comen sin apuro, y
+              en su calma hay una lección que a los que crecimos entre relojes
+              nos cuesta admitir: que la atención no es cosa de segundos sino
+              de horas.
+            </p>
+            <p>
+              Al principio, cuando se pasa mucho rato mirándolas, aparece la
+              impaciencia. Piensas en la lista de cosas pendientes, en un
+              recado. Pero si te quedas —si aguantas los primeros veinte
+              minutos— algo cede. La luz sobre el lomo del animal se vuelve
+              interesante. El movimiento de la cola, también. Uno empieza a
+              ver lo que antes no veía porque no lo estaba mirando.
+            </p>
+            <blockquote>
+              La atención no es cosa de segundos sino de horas.
+            </blockquote>
+            <p>
+              Me imagino que por eso los grandes maestros del paisaje —
+              Constable, Pissarro, el mismo Rugendas cuando pintó el Perú —
+              podían quedarse afuera todo un día, aunque hiciera frío, aunque
+              cayera una llovizna suave. No es que fueran más pacientes que
+              nosotros. Es que ya habían pasado por esa primera hora en que
+              uno cree que no está viendo nada.
+            </p>
+          </div>
+        </article>
+
+        <!-- ESCRITO 2 -->
+        <article class="writing" id="taller-invierno">
+          <header class="writing__header">
+            <p class="writing__kicker">Cuaderno del taller</p>
+            <h2 class="writing__title">El taller en invierno</h2>
+            <p class="writing__date">
+              <time datetime="2026-06-14">14 de junio, 2026</time>
+            </p>
+          </header>
+          <div class="writing__body">
+            <p>
+              El taller queda al fondo del patio, y en invierno hay que darle
+              tiempo antes de trabajar: las mañanas son húmedas, la pintura
+              tarda más en secar, los pinceles se ponen tercos. Prefiero
+              entrar temprano, encender la estufa chica y quedarme un rato
+              mirando lo que dejé la tarde anterior.
+            </p>
+            <p>
+              A veces basta con eso. Otras veces hay que rascar y volver a
+              empezar. Con el óleo, uno aprende a no tenerle miedo a lo que
+              está mal: la superficie perdona casi todo, siempre que uno no se
+              apure. En invierno esa lección se refuerza: no queda otra que ir
+              lento.
+            </p>
+            <h3>Un cuaderno para no olvidar</h3>
+            <p>
+              Este año empecé a apuntar en un cuaderno pequeño las mezclas
+              que uso. No para volverlas fórmula —no funciona así— sino para
+              no perder el rastro cuando algo sale bien. Anoto el clima, la
+              hora, la luz. A veces me sirve, a veces no. Pero el gesto de
+              anotarlo ya es parte del oficio.
+            </p>
+          </div>
+        </article>
+
+        <!-- ESCRITO 3 -->
+        <article class="writing" id="carta-abuelo">
+          <header class="writing__header">
+            <p class="writing__kicker">Prosa</p>
+            <h2 class="writing__title">Carta que no le mandé a mi abuelo</h2>
+            <p class="writing__date">
+              <time datetime="2026-05-02">2 de mayo, 2026</time>
+            </p>
+          </header>
+          <div class="writing__body">
+            <p>
+              Abuelo: te escribo esta carta sabiendo que no la vas a leer, y
+              tal vez por eso me sale así, larga y sin urgencia. Hace poco
+              volví al fundo. Está más pequeño de como lo recordaba —o soy yo,
+              que ya no lo recorro con los pasos de un niño.
+            </p>
+            <p>
+              Las vacas siguen ahí, aunque no son las tuyas. Las mira otro. Yo
+              me senté un rato en la piedra grande, la que tú siempre usabas
+              para descansar cuando volvías del canal, y me acordé de cosas
+              que no me acordaba desde hace treinta años. La textura de tu
+              chompa. Cómo te frotabas las manos. La manera que tenías de
+              silbar bajito, como si el silbido no fuera para nadie.
+            </p>
+            <p>
+              Quería decirte que estoy escribiendo un libro nuevo, y que
+              muchas de sus páginas están hechas de esas cosas. No sé si
+              hubiera salido igual si tú siguieras vivo. Pero lo escribo,
+              también, un poco por ti.
+            </p>
+          </div>
+        </article>
+
+        <!-- FIN DEL ÚLTIMO ESCRITO. Copia cualquiera de los bloques anteriores para agregar otro. -->
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <h3>Sergio Barrio Tarnawiecki</h3>
+          <p>Poeta, pintor y fotógrafo. Este es un sitio pequeño para compartir
+             lo que voy haciendo y para quien quiera llevar a casa un libro o
+             una obra.</p>
+        </div>
+        <div>
+          <h3>Ir a</h3>
+          <ul>
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="pinturas.html">Pinturas</a></li>
+            <li><a href="fotografias.html">Fotografías</a></li>
+            <li><a href="escritos.html">Escritos</a></li>
+            <li><a href="sobre.html">Sobre mí</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <p>
+            <a href="https://wa.me/51999469169?text=Hola%20Sergio."
+               target="_blank" rel="noopener">WhatsApp: +51 999 469 169</a>
+          </p>
+          <p>Lima, Perú</p>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        © <span id="year">2026</span> Sergio Barrio Tarnawiecki. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
