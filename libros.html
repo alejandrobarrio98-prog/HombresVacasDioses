@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Libros — Sergio Barrio Tarnawiecki</title>
-  <meta name="description" content="Libros publicados por Sergio Barrio Tarnawiecki: poesía, prosa y ensayo. Disponibles para compra directa por WhatsApp.">
+  <meta name="description" content="Libros publicados por Sergio Barrio Tarnawiecki: ensayo, poesía, cuentos y memorias. Disponibles para compra directa por WhatsApp.">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -43,9 +43,9 @@
         <p class="page-header__kicker">Catálogo</p>
         <h1 class="page-header__title">Libros</h1>
         <p class="page-header__lead">
-          Cada libro puede comprarse escribiendo por WhatsApp. Entrega en Lima
-          sin costo; envíos a provincia se coordinan por el mismo medio.
-          Todos los ejemplares llevan una dedicatoria si así lo prefieres.
+          Doce libros publicados, entre ensayo, poesía, cuentos y memorias.
+          Los precios están por confirmar — escríbeme por WhatsApp y te digo
+          el precio y la forma de entrega.
         </p>
       </div>
     </section>
@@ -56,139 +56,264 @@
         <div class="grid grid--3">
 
           <!-- ============================================================
-               LIBRO 1
                PARA AGREGAR UN LIBRO NUEVO, COPIA UN BLOQUE COMPLETO
                (desde <article class="card"> hasta </article>) Y CAMBIA:
-                 · El título en dos lugares (portada y card__title)
-                 · La descripción (card__meta y card__desc)
-                 · El precio (card__price)
+                 · La imagen de portada (src y alt)
+                 · El título (card__title)
+                 · El tipo de libro y el año, si se sabe (card__meta)
+                 · La descripción (card__desc)
+                 · El precio (card__price) — cuando Sergio lo confirme,
+                   reemplaza "Precio: por confirmar" por el monto, por
+                   ejemplo "S/ 45.00", y cambia el texto del botón de
+                   "Consultar por WhatsApp" a "Comprar por WhatsApp" si
+                   quieres.
                  · El texto codificado dentro del enlace de WhatsApp
                    (reemplaza sólo la parte del nombre del libro; los %20
                     representan espacios y los %22 comillas dobles).
                ============================================================ -->
+
+          <!-- LIBRO 1 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--red">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">De hombres,<br>vacas y dioses</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/informatica-alienacion-crisis.jpg" alt="Portada de Informática, Alienación y Crisis">
             </div>
-            <h2 class="card__title">De hombres, vacas y dioses</h2>
-            <p class="card__meta">Poesía · 96 páginas · 2018</p>
+            <h2 class="card__title">Informática, Alienación y Crisis</h2>
+            <p class="card__meta">Ensayo político y tecnológico</p>
             <p class="card__desc">
-              Un poemario sobre lo humano, lo animal y lo divino, escrito a
-              orillas del río donde crecí. Poemas breves, de aliento sereno.
+              Un análisis crítico de cómo la informática, la electrónica y las
+              telecomunicaciones han profundizado la explotación laboral y la
+              crisis ambiental bajo el capitalismo financiero — y una
+              propuesta de salida democrática y socialista.
             </p>
-            <p class="card__price">S/ 45.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22De%20hombres%2C%20vacas%20y%20dioses%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Inform%C3%A1tica%2C%20Alienaci%C3%B3n%20y%20Crisis%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 
           <!-- LIBRO 2 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--green">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">Cuadernos<br>de la orilla</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/pensamiento-etica-praxis.jpg" alt="Portada de Pensamiento, Ética y Praxis">
             </div>
-            <h2 class="card__title">Cuadernos de la orilla</h2>
-            <p class="card__meta">Prosa breve · 132 páginas · 2020</p>
+            <h2 class="card__title">Pensamiento, Ética y Praxis</h2>
+            <p class="card__meta">Ensayo filosófico</p>
             <p class="card__desc">
-              Anotaciones de tres veranos en el norte. Retratos, paisajes y
-              conversaciones recogidas sin propósito, como quien junta piedras.
+              Una reflexión dialéctica sobre la crisis del capitalismo global,
+              en diálogo con Hegel, Marx y la tradición del pensamiento
+              crítico latinoamericano, en busca de una ética revolucionaria
+              renovada.
             </p>
-            <p class="card__price">S/ 50.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Cuadernos%20de%20la%20orilla%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Pensamiento%2C%20%C3%89tica%20y%20Praxis%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 
           <!-- LIBRO 3 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--ochre">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">Los pastos<br>de agosto</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/inteligencia-artificial.jpg" alt="Portada de Inteligencia Artificial: ¿fuerza destructiva o productiva?">
             </div>
-            <h2 class="card__title">Los pastos de agosto</h2>
-            <p class="card__meta">Poesía · 88 páginas · 2015</p>
+            <h2 class="card__title">Inteligencia Artificial: ¿fuerza destructiva o productiva?</h2>
+            <p class="card__meta">Ensayo</p>
             <p class="card__desc">
-              Ciclo de poemas escritos durante los inviernos de la sierra.
-              Ganado, silencio, la vuelta lenta de la luz sobre las cosas.
+              Un examen del auge de la inteligencia artificial — sus riesgos,
+              sus promesas y sus aplicaciones en el Perú — y de las
+              decisiones éticas y políticas que exige este momento
+              tecnológico.
             </p>
-            <p class="card__price">S/ 40.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Los%20pastos%20de%20agosto%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Inteligencia%20Artificial%3A%20%C2%BFfuerza%20destructiva%20o%20productiva%3F%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 
           <!-- LIBRO 4 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--green">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">El retorno<br>del arado</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/renacimiento-esperanza.jpg" alt="Portada de Renacimiento de la Esperanza">
             </div>
-            <h2 class="card__title">El retorno del arado</h2>
-            <p class="card__meta">Ensayo · 112 páginas · 2011</p>
+            <h2 class="card__title">Renacimiento de la Esperanza</h2>
+            <p class="card__meta">Ensayo político · 2024</p>
             <p class="card__desc">
-              Un ensayo sobre la memoria del oficio y el trabajo de la tierra
-              en la costa peruana. Escrito con paciencia, para lectores sin
-              apuro.
+              Una crítica honesta y autocrítica al socialismo del siglo XX, y
+              una propuesta de renovación ética, espiritual y política para
+              la izquierda peruana. Incluye el apéndice "La razón de la
+              sinrazón".
             </p>
-            <p class="card__price">S/ 42.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22El%20retorno%20del%20arado%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Renacimiento%20de%20la%20Esperanza%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 
           <!-- LIBRO 5 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--red">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">Un cielo<br>de otoño</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/palabra-de-hombre.jpg" alt="Portada de Palabra de Hombre">
             </div>
-            <h2 class="card__title">Un cielo de otoño</h2>
-            <p class="card__meta">Poesía · 72 páginas · 2008</p>
+            <h2 class="card__title">Palabra de Hombre / Reflexiones sobre la Masculinidad</h2>
+            <p class="card__meta">Reflexiones · dos libros reunidos en uno</p>
             <p class="card__desc">
-              Primer libro, largamente agotado y ahora reeditado en tirada
-              corta. Poemas de juventud, escritos entre Lima y Trujillo.
+              Reflexiones breves sobre una masculinidad distinta: aliada de
+              la mujer en la vida y radicalmente opuesta al machismo, seguida
+              de un examen más extenso de la masculinidad como construcción
+              cultural e histórica.
             </p>
-            <p class="card__price">S/ 38.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Un%20cielo%20de%20oto%C3%B1o%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Palabra%20de%20Hombre%20/%20Reflexiones%20sobre%20la%20Masculinidad%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 
           <!-- LIBRO 6 -->
           <article class="card">
-            <div class="card__thumb book-cover book-cover--ochre">
-              <div class="book-cover__rule"></div>
-              <div class="book-cover__title">Casas<br>tan quietas</div>
-              <div class="book-cover__author">Sergio Barrio Tarnawiecki</div>
+            <div class="card__thumb">
+              <img src="assets/libros/educacion-sexual-etica.jpg" alt="Portada de Educación Sexual Ética">
             </div>
-            <h2 class="card__title">Casas tan quietas</h2>
-            <p class="card__meta">Prosa · 148 páginas · 2023</p>
+            <h2 class="card__title">Educación Sexual Ética</h2>
+            <p class="card__meta">Informe académico · Lima, 2023</p>
             <p class="card__desc">
-              Retratos de casas antiguas y de las personas que las habitaron.
-              Un libro sobre las cosas que quedan y las que se van.
+              Informe final de un proyecto piloto para formar a docentes en
+              una educación sexual ética, humanista y respetuosa del
+              desarrollo natural de los jóvenes, más allá del miedo o la sola
+              anatomía.
             </p>
-            <p class="card__price">S/ 55.00</p>
+            <p class="card__price">Precio: por confirmar</p>
             <div class="card__actions">
               <a class="btn btn--buy"
-                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Casas%20tan%20quietas%22."
-                 target="_blank" rel="noopener">Comprar por WhatsApp</a>
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Educaci%C3%B3n%20Sexual%20%C3%89tica%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 7 -->
+          <article class="card">
+            <div class="card__thumb">
+              <img src="assets/libros/tres-cuentos-ninas-ninos.jpg" alt="Portada de Tres Cuentos para Niñas y Niños">
+            </div>
+            <h2 class="card__title">Tres Cuentos para Niñas y Niños</h2>
+            <p class="card__meta">Cuentos ilustrados · 2024</p>
+            <p class="card__desc">
+              Tres cuentos ilustrados para niñas y niños, sobre la amistad
+              con la naturaleza, el crecimiento personal y el descubrimiento
+              de la propia luz interior.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Tres%20Cuentos%20para%20Ni%C3%B1as%20y%20Ni%C3%B1os%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 8 -->
+          <article class="card">
+            <div class="card__thumb">
+              <img src="assets/libros/tres-historias-para-grandes.jpg" alt="Portada de Tres Historias para Grandes">
+            </div>
+            <h2 class="card__title">Tres Historias para Grandes</h2>
+            <p class="card__meta">Relatos · 2024</p>
+            <p class="card__desc">
+              Tres relatos para lectores adultos: un diálogo filosófico entre
+              distintas formas de la razón, una fábula sobre el origen del
+              liderazgo humano, y cinco historias místicas vividas por el
+              autor.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Tres%20Historias%20para%20Grandes%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 9 -->
+          <article class="card">
+            <div class="card__thumb">
+              <img src="assets/libros/amar-dibujar-combatir.jpg" alt="Portada de Amar, Dibujar y Combatir sin Reservas">
+            </div>
+            <h2 class="card__title">Amar, Dibujar y Combatir sin Reservas</h2>
+            <p class="card__meta">Poemario ilustrado · 2024–2025</p>
+            <p class="card__desc">
+              El poemario completo del autor: versos románticos, sensuales,
+              paternales, guerreros y místicos, acompañados de sus propios
+              dibujos y pinturas.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Amar%2C%20Dibujar%20y%20Combatir%20sin%20Reservas%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 10 -->
+          <article class="card">
+            <div class="card__thumb">
+              <img src="assets/libros/la-siembra-mujer-hombre.jpg" alt="Portada de La Siembra de la Mujer y del Hombre">
+            </div>
+            <h2 class="card__title">La Siembra de la Mujer y del Hombre</h2>
+            <p class="card__meta">Canto y danza ceremonial · 2024</p>
+            <p class="card__desc">
+              Un canto y danza ceremonial inspirado en la cosmovisión andina:
+              Inti, el dios sol, guía un poema sobre la siembra de las
+              virtudes humanas y la resistencia de los pueblos originarios.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22La%20Siembra%20de%20la%20Mujer%20y%20del%20Hombre%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 11 -->
+          <article class="card">
+            <div class="card__thumb">
+              <img src="assets/libros/fragmentos-de-una-vida.jpg" alt="Portada de Fragmentos de una Vida">
+            </div>
+            <h2 class="card__title">Fragmentos de una Vida</h2>
+            <p class="card__meta">Memorias · 2025</p>
+            <p class="card__desc">
+              Testimonios y reflexiones del recorrido de una vida de más de
+              ochenta años, escritos para acompañar la búsqueda de quien los
+              lea.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Fragmentos%20de%20una%20Vida%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
+            </div>
+          </article>
+
+          <!-- LIBRO 12 — sin foto de portada todavía; ver LEEME.md para agregarla -->
+          <article class="card">
+            <div class="card__thumb painterly" role="img" aria-label="Poestesia (portada pendiente)"></div>
+            <h2 class="card__title">Poestesia</h2>
+            <p class="card__meta">Poemario bilingüe/trilingüe</p>
+            <p class="card__desc">
+              Una colección de diecisiete poemas ilustrados, en español,
+              inglés y francés, que exploran el amor, la pérdida, la
+              resistencia política y la pregunta por el ser.
+            </p>
+            <p class="card__price">Precio: por confirmar</p>
+            <div class="card__actions">
+              <a class="btn btn--buy"
+                 href="https://wa.me/51999469169?text=Hola%20Sergio%2C%20me%20interesa%20el%20libro%20%22Poestesia%22.%20%C2%BFCu%C3%A1l%20es%20el%20precio%3F"
+                 target="_blank" rel="noopener">Consultar por WhatsApp</a>
             </div>
           </article>
 

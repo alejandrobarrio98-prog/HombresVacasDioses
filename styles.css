@@ -309,37 +309,6 @@ button:focus-visible,
     linear-gradient(180deg, rgba(60,40,20,.15), rgba(60,40,20,.55)),
     linear-gradient(200deg, #C9B48A 0%, #8B764A 55%, #3F3320 100%);
 }
-.book-cover {
-  position: relative;
-  color: #F3ECDC;
-  font-family: var(--font-display);
-}
-.book-cover--red    { background: linear-gradient(180deg, #7C1F1B 0%, #5B1414 100%); }
-.book-cover--green  { background: linear-gradient(180deg, #3B4B33 0%, #24301F 100%); }
-.book-cover--ochre  { background: linear-gradient(180deg, #B58A3D 0%, #8B6423 100%); color: #24170A; }
-.book-cover__title {
-  position: absolute;
-  left: 22px; right: 22px; top: 36px;
-  font-size: 22px;
-  letter-spacing: 0.12em;
-  line-height: 1.25;
-  text-transform: uppercase;
-}
-.book-cover__author {
-  position: absolute;
-  left: 22px; right: 22px; bottom: 22px;
-  font-size: 13px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-}
-.book-cover__rule {
-  position: absolute;
-  left: 22px; right: 22px; top: 24px;
-  height: 1px;
-  background: currentColor;
-  opacity: 0.6;
-}
-
 /* ---------- Botones ---------- */
 .btn {
   display: inline-flex;
